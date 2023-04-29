@@ -1,0 +1,317 @@
+header{
+    padding: 5px 0px 5px;
+}
+.banner{
+    background-image: url('../images/banner-bgpic.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 790px;
+    height: 100%;
+}
+.request-form{
+    background-color: #f3f3f3;
+    padding: 35px 30px;
+    margin-top: -80px;
+}
+.request-form span{
+    font-size: 38px;
+    margin-bottom: 27px;
+    display: inline-block;
+}
+.request-form a{
+    background-color: #5bbc2f;
+    border: none;
+}
+.request-form a:hover{
+    background-color: #60ed1f;
+    border: none;
+}
+.znaper-experties{
+    padding: 50px 0px 50px;
+}
+.status-number{
+    transform: rotate(75deg);
+    display: flex;
+    font-family: 'BrandonGrotesque-Bold';
+    font-size: 30px;
+    color: #222222;
+    border-left: 5px solid #b0e54f;
+    border-top: 5px solid #5bbc2f;
+    border-right: 5px solid #5bbc2f;
+    border-bottom: 5px solid #5bbc2f;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.status-number span{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    transform: rotate(-75deg);
+}
+.meet-zanper{
+    background-color: #f3f3f3;
+    padding: 140px 0px 180px;
+}
+.unorder-item li{
+    list-style-type: none;
+    font-family: 'DroidSerif-Italic';
+    font-size: 16px;
+    color: #555555;
+    position: relative;
+    margin-right: 15px;
+    display: inline-block;
+}
+.unorder-item li::after {
+    content: '';
+    position: absolute;
+    width: 2.5px;
+    background-color: #6d6b6b;
+    height: 20px;
+}
+.unorder-item li:last-child:after{
+    display: none;
+}
+.column-count{
+    column-count: 3;
+    padding-left: 0px;
+}
+
+.column-count li{
+    list-style-type: none;
+    font-family: 'DroidSerif-Italic';
+    font-size: 16px;
+    line-height: 48px;
+    
+}
+.card{
+    padding: 0px;
+    max-width: 420px;
+}
+.card a{
+    border: none;
+    background-color: #5bbc2f;
+}
+.image-card{
+    height: 120px;
+}
+
+  /* get start */
+ .get-start{
+    background-color: #5bbc2f;
+    padding: 145px 0px 145px;
+    text-align: center;
+  }
+  .get-start h3{
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  .get-start span {
+    padding: 18px 33px;
+    background-color: #fff;
+    font-family: 'DroidSerif-BoldItalic';
+    border-radius: 5px;
+    font-size: 20px;
+    display: inline-block;
+}
+.get-start a {
+    font-family: 'BrandonGrotesque-Black';
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+}
+footer{
+    background-color: #161c20;
+}
+footer hr{
+    color: #ffff;
+}
+.footer-top{
+    padding: 95px 0px 105px;
+}
+.soical-link h4{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'BrandonGrotesque-Black';
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.soical-link ul{
+    padding-left: 0px;
+}
+.soical-link li{
+    list-style-type: none;
+}
+.soical-link li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 2;
+    font-family: 'DroidSerif-Italic';
+}
+.about-znaper-book li{
+    margin-bottom: 10px;
+}
+.get-know-us li{
+    margin-bottom: 10px;
+}
+.contact-with-us ul :nth-child(0n+2){
+    margin-bottom: 30px;
+}
+.contact-with-us ul :nth-child(0n+4){
+    margin-bottom: 50px;
+}
+.company-info ul li{
+    margin-bottom: 10px;
+}
+.company-info ul li a{
+    line-height: 2;
+}
+.footer-buttom{
+    padding: 20px 0px 20px;
+    text-align: center;
+}
+.footer-buttom a{
+    text-decoration: none;
+    color: #252c31;
+    font-size: 15px;
+    font-family: 'DroidSerif-Italic';
+}
+    .card-body h5{
+        font-family: 'BrandonGrotesque-Black';
+        font-size: 24px;
+        color: #222222;
+        text-transform: uppercase;
+    }
+    .card-body a:hover{
+        background-color: #b0e54f;
+    }
+    .zanper-card-detile{
+        padding: 30px 16px 40px;
+    }
+    
+    .zanper-card-detile .status-number{
+        transform: rotate(75deg);
+        display: flex;
+        font-family: 'BrandonGrotesque-Bold';
+        font-size: 30px;
+        color: #222222;
+        border-left: 2px solid #b0e54f;
+        border-top: 2px solid #5bbc2f;
+        border-right: 2px solid #5bbc2f;
+        border-bottom: 2px solid #5bbc2f;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+    .zanper-card-detile .status-number span{
+        font-size: 30px;
+        color: black;
+        text-decoration: none;
+        transform: rotate(-75deg);
+    }
+    .zanper-card-detile ul {
+        padding: 0px;
+    }
+    
+  @media screen and (max-width: 1024px) {
+    .technical-skills{
+        margin-bottom: 50px;
+       }
+       .request-form {
+        padding: 20px 20px;
+        margin-top: -72px;
+    }
+    .request-form span {
+        font-size: 30px;
+        margin-bottom: 22px;
+    }
+    .znaper-experties {
+        padding: 40px 0px 40px;
+    }
+    .image-card {
+        height: 100px;
+    }
+    .text-center h3{
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .get-start span {
+        padding: 14px 23px;
+        font-size: 18px;
+    }
+    .get-start a{
+        font-size: 16px;
+    }
+    .znaper-card-outer{
+        padding: 0px;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .banner {
+        min-height: 450px;
+        height: 100%;
+    }
+    .zanper-card-detile .status-number{
+        width: 30px;
+        height: 30px;
+    }
+    .zanper-card-detile .status-number span{
+        font-size: 23px;
+    }
+    .zanper-card-detile {
+        padding: 10px 6px 20px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .banner {
+        min-height: 450px;
+        height: 100%;
+    }
+     .meet-zanper{
+        padding: 80px 0px 100px;
+    }
+    .znaper-experties {
+        padding: 30px 0px 30px;
+    }
+    .zanper-description{
+        padding-bottom: 10px;
+    }
+    .request-form span {
+        font-size: 28px;
+        margin-bottom: 27px;
+    }
+    .tstimonial-card{
+        margin-bottom: 10px;
+       }
+       .image-card{
+        margin-bottom: 10px;
+       }
+       .card-description {
+        text-align: center;
+       }
+       .get-start h3{
+        margin-bottom: 20px;
+      }
+      /* .zanper-card-detile {
+        padding: 10px 6px 20px;
+    } */
+    .zanper-card-detile ul li{
+        font-size: 14px;
+        margin-right: 0px;
+    }
+    .znaper-card-outer{
+        padding-bottom: 40px;
+    }
+    .zanper-card-detile{
+        padding: 20px 10px 20px;
+    }
+   
+   
+  }
